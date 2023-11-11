@@ -1,9 +1,0 @@
-12345678, Ana Pérez, Av. Principal 123 San Isidro, 65 kg, 36.8 °C
-
-23456789, Juan Rodríguez, Jr. Secundario 456 Miraflores, 70 kg, 37.0 °C
-
-34567890, María Gómez, Calle Norte 789 Surco, 62 kg, 36.5 °C
-
-45678901, Luis Torres, Pasaje Este 234 La Molina, 75 kg, 37.2 °C
-
-56789012, Laura Ruiz, Alameda Oeste 567 Barranco, 68 kg, 36.9 °C

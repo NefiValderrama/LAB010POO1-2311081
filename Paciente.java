@@ -5,19 +5,19 @@
 package com.mycompany.pc2.nefi_valderrama;
 
 public class Paciente {
-    
+    int nmroLista = 0;
     private int dni;
     private String nombre;
     private String direccion;
     private double peso;
     private double temperatura;
-    private Médico medicoPaciente;
+    private Medico medicoPaciente;
 
-    public Médico getMedicoPaciente() {
+    public Medico getMedicoPaciente() {
         return medicoPaciente;
     }
 
-    public void setMedicoPaciente(Médico medicoPaciente) {
+    public void setMedicoPaciente(Medico medicoPaciente) {
         this.medicoPaciente = medicoPaciente;
     }
     
@@ -26,7 +26,7 @@ public class Paciente {
 		this.nombre = nombre;
 		this.direccion = direccion;
 		this.peso = peso;
-                this.temperatura = temperatura;
+        this.temperatura = temperatura;
 	}
 
     public int getDni() {
@@ -68,7 +68,15 @@ public class Paciente {
     public void setTemperatura(double temperatura) {
         this.temperatura = temperatura;
     }
+    
+     public int getNmroLista() {
+        return nmroLista;
+    }
 
+    public void setNmroLista(int nmroLista) {
+        this.nmroLista = nmroLista;
+    }
+    
     @Override
     public String toString() {
 	return "Paciente:" +
